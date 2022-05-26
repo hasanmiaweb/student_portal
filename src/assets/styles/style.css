@@ -1,0 +1,106 @@
+body{
+    background-color:#f0f2fa;
+}
+.add_title{
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 1.06;
+    letter-spacing: 1px;
+    color: #171717;
+    font-weight: 800;
+}
+.add_newFrom {
+    margin-top: 10px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 30px;
+    text-align: center;
+    margin: auto;
+}
+p.input_title {
+    color: #424242;
+}
+.input_style {
+    width: 70%;
+    border-radius: 8px;
+    border-width: 0;
+    margin-bottom: 15px;
+    padding: 5px 9px;
+    height: 33px;
+    background: #eff0f6;
+}
+
+input.buttons {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: white;
+    background: #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.table_style{
+    margin: auto;
+    width: 80%;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.searchBtn{
+    width: 70%;
+    border-radius: 8px;
+    border-width: 0;
+    margin-bottom: 15px;
+    padding: 5px 9px;
+    font-size: 18px;
+    height: 33px;
+    background: #eff0f6;
+}
+.input_styles{
+    width: 75%;
+    border-radius: 8px;
+    border-width: 0;
+    margin-bottom: 15px;
+    padding: 5px 9px;
+    height: 40px;
+    background: #eff0f6;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd; border-radius: 10px;}
