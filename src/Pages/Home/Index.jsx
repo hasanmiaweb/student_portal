@@ -150,6 +150,7 @@ const Home = () => {
             onChange={hanldeFilter}
             style={{ width: "50%" }}
           >
+            <option value="Hide">Hide</option>
             <option value="All">ALL</option>
             <option value="Purulia ML High School">
               Purulia ML High School
